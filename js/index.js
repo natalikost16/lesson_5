@@ -1,6 +1,6 @@
-const a = parseFloat(prompt('Enter A'));
-const b = parseFloat(prompt('Enter B'));
-const c = parseFloat(prompt('Enter C'));
+const a = parseFloat(prompt('Введіть A'));
+const b = parseFloat(prompt('Введіть B'));
+const c = parseFloat(prompt('Введіть C'));
 
 const result = solveQuadr(a,b,c);
 alert(result);
@@ -15,7 +15,7 @@ function solveQuadr(a,b,c) {
       const  x1 = -b / (2*a);
         return 'x1 =' + x1;
     } 
-    return 'There is no valid roots';
+    return 'Рівняння немає коренів';
 }
 function calcD(a,b,c) {
     return b * b - 4 * a * c;
